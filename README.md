@@ -73,7 +73,7 @@ ims_med, masks_med, dice_med = dilation(image, model, preprocess_transform, targ
 
 ![image](https://user-images.githubusercontent.com/127871419/226063304-87789063-5ea6-412b-83cc-ac11b95a02f9.png)
 
-## Dice progression with dilation
+## Dice progression with dilation starting with Seg-XRes-CAM's saliency map
 
 ![image](https://user-images.githubusercontent.com/127871419/226063330-7ce1d45f-7e70-44ee-a28a-8d8d7fd7b647.png)
 
