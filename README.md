@@ -76,10 +76,15 @@ ims_med, masks_med, dice_med = dilation(image, model, preprocess_transform, targ
 ## Dice progression with dilation
 
 ![image](https://user-images.githubusercontent.com/127871419/226063330-7ce1d45f-7e70-44ee-a28a-8d8d7fd7b647.png)
+
 ![image](https://user-images.githubusercontent.com/127871419/226063430-3a784bdf-f9c8-4c47-90f1-746c7fedc0bb.png)
+
 ![image](https://user-images.githubusercontent.com/127871419/226063469-f19fdb5d-d38e-4ed6-a327-34f8db9c405c.png)
+
 ![image](https://user-images.githubusercontent.com/127871419/226063477-5d25cb03-ce16-402a-a7df-80d144204b85.png)
+
 ![image](https://user-images.githubusercontent.com/127871419/226063488-b0532e48-409b-44d0-95e9-d0ec6fcce67e.png)
+
 ![image](https://user-images.githubusercontent.com/127871419/226063505-29b9924b-8ac3-4eae-a4ef-73253508f66d.png)
 
 
