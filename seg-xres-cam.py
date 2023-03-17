@@ -291,7 +291,7 @@ def seg_grad_cam(image, model, preprocess_transform, target = None, target_layer
 
 
 
-def utility_dilation(image, model, preprocess_transform, target = None, box = None, DEVICE = DEVICE, vis = True):
+def utility_dilation(image, model, preprocess_transform, target = None, box = None, DEVICE = 'cpu', vis = True):
   if preprocess_transform is None:
           input_tensor = image.clone()
           image = image.permute(1, 2, 0).numpy()
@@ -340,7 +340,7 @@ def dc(result, reference, label):
     dc = 2. * intersection / float(size_i1 + size_i2)
     return dc
 
-def dilation(image, model, preprocess_transform, target = None, box = None, DEVICE = DEVICE,
+def dilation(image, model, preprocess_transform, target = None, box = None, DEVICE = 'cpu',
              mask = None, kernel_size = 5, threshold = 0.2, iterations = 100, original_prediction = None, skip_vis = 10):
     dil_mask = mask.copy()  
     dil_mask[dil_mask < threshold] = 0
