@@ -67,4 +67,10 @@ results_1_natural, results_masks_1 = visualize_algos(image, model, preprocess_tr
 ims_med, masks_med, dice_med = dilation(image, model, preprocess_transform, target = target, box = box, DEVICE = DEVICE,
           mask = results_masks_1[-2], kernel_size = 5, threshold = 0.2, iterations = 10, original_prediction = results_1_natural[1],
           skip_vis = 2)
-```          
+```  
+
+![image](https://user-images.githubusercontent.com/127871419/226063304-87789063-5ea6-412b-83cc-ac11b95a02f9.png)
+
+![image](https://user-images.githubusercontent.com/127871419/226063330-7ce1d45f-7e70-44ee-a28a-8d8d7fd7b647.png)
+
+
