@@ -2,7 +2,7 @@
 
 Code for Seg-XRes-CAM
 
-Instructions - For google colab
+## Instructions - For google colab:
 
 !git clone https://github.com/for-submission-2023/Seg-XRes-CAM-23.git
 
